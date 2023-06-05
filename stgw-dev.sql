@@ -12,9 +12,10 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 --
 -- Database: `stfc`
 --
-CREATE DATABASE IF NOT EXISTS `stfc`;
+CREATE DATABASE IF NOT EXISTS `stgw-dev`;
+GRANT ALL ON `stgw-dev`.* TO 'stgw'@'%';
 
-USE stfc;
+USE stgw-dev;
 
 -- --------------------------------------------------------
 
